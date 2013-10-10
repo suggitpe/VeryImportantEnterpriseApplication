@@ -6,4 +6,8 @@ public class VeryImportant{
     public static String checkTheWorld(){
         return SAFE;
     }
+
+    public void saveTheWorld(){
+        // blah
+    }
 }
