@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+defaultTasks 'clean', 'build'
+
+group = 'org.suggs.build-sandbox'
+version = '1.0-SNAPSHOT'
+buildDir = 'target'
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+

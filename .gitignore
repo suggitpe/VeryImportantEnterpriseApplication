@@ -1,6 +1,7 @@
-*.class
+.gradle/
+target/
 
-# Package Files #
+*.class
 *.jar
 *.war
 *.ear
